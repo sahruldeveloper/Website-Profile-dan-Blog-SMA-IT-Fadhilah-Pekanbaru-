@@ -1,0 +1,1003 @@
+body {
+    font-family: "Montserrat", "Sogoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #15477A;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.btn-login {
+    background-color: #15477A;
+    color: #fff;
+    line-height: 38px;
+}
+
+/* #hero-area {
+    position: relative;
+    bottom: -200px;
+
+} */
+
+
+
+
+
+.top-contact,
+.sosmed {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #F2C808;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 10px;
+}
+
+/* header */
+
+header {
+    padding: 30px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 10px;
+}
+
+.brand .brand-name {
+    margin-top: 13px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #151515;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Raleway, 'Sogoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8888;
+}
+
+.searchbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+/* akhir header */
+
+/* navbar */
+.navbar {
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    letter-spacing: 0.25px;
+    border-bottom: 5px solid #F2C808;
+}
+
+.bg-navbar {
+    background-color: #15477A;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+active {
+    background-color: #F2C808;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 8px 15px;
+}
+
+/* akhir navbar */
+
+/* hero banner */
+
+#hero-area {
+    position: relative;
+}
+
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background-color: #15477A;
+    color: #fff;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+
+#slider-hero-nav .owl-prev {
+    left: 0;
+    border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    -moz-border-radius: 0 50px 50px 0;
+    -ms-border-radius: 0 50px 50px 0;
+    -o-border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next {
+    right: 0px;
+    border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -ms-border-radius: 50px 0px 0px 50px;
+    -o-border-radius: 50px 0px 0px 50px;
+}
+
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover {
+    cursor: pointer;
+    background-color: #F2C808;
+}
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+#hero-area .slider-item-content h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#hero-area .slider-item-content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.slider-item-img {
+    max-height: 600px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.slider-item-img img {
+    max-height: 600px;
+
+}
+
+
+/* akhir hero banner */
+
+/* sambutan kepala sekolah */
+
+#sambutan {
+    margin: 60px 0;
+}
+
+#sambutan h2 {
+    color: #15477A;
+    font: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#sambutan h3 {
+    color: #15477A;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sambutan p {
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+}
+
+/* akhir sambutan kepala sekolah */
+
+/* css beritas */
+#berita {
+    min-height: 250px;
+}
+
+#berita .col-item-kanan {
+    padding: 30px;
+}
+
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 20px #ddd;
+    min-height: 260px;
+    overflow: hidden;
+}
+
+
+
+.section-item-thumbnail {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.section-item-thumbnail-berita {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+
+.section-title-berita {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.section-title-berita h5 {
+    line-height: 2;
+}
+
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: " ";
+    width: 60%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.section-item-title {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.section-item-title h3 {
+    font-size: 18px;
+    color: #15477A;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span {
+    font-size: 12px;
+}
+
+.section-item-title span i {
+    margin-right: 10px;
+}
+
+.section-item-title span:first-of-type {
+    margin-right: 15px;
+}
+
+.section-item-body p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #6666;
+}
+
+
+/* css berita selengkapnya */
+#berita-lengkap {
+    min-height: 200px;
+}
+
+#berita-lengkap .col-item-kanan {
+    padding: 30px;
+}
+
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 20px #ddd;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+
+.section-item-thumbnail-berita-lengkap {
+    max-width: 100%;
+    width: 100%;
+    height: 260px;
+}
+
+.section-title-berita {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.section-title-berita h5 {
+    line-height: 2;
+
+}
+
+
+
+
+
+/* end css berita selengkapnya */
+
+
+/* tombol */
+.btn-selengkapnya {
+    text-align: center;
+}
+
+.btn.btn-more {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #15477A;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 10px 40px;
+}
+
+.btn.btn-more:hover {
+    background-color: #15477A;
+    color: #fff;
+}
+
+/* akhir tombol */
+
+/* akhir css berita */
+
+/* all section */
+/* .top-section {
+     margin: 80px 0;
+     ;
+} */
+
+/* end section */
+
+/* css tenaga pendidik dan gallery */
+
+owl-item {
+    padding: 20px 10px;
+}
+
+#gallery {
+    margin-bottom: 200px;
+}
+
+.section-item-slider {
+    height: 360px;
+    box-shadow: 0 0 25px #ddd;
+    margin: 10px;
+    position: relative;
+}
+
+#tenaga-pendidik-slider .foto-guru,
+.gallery {
+    height: 100%;
+    object-fit: cover;
+}
+
+#gallery .section-item-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    color: #000;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#gallery .section-item-caption h5 {
+    color: #15477A;
+    font-size: 18px;
+}
+
+#gallery .section-item-caption h6 {
+    font-style: 18px;
+    color: #F2C808;
+}
+
+#tenaga-pendidik .section-item-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    color: #000;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+
+    padding: 12px 10px 8px 10px;
+    text-align: center;
+}
+
+#tenaga-pendidik .section-item-caption h5 {
+    color: #15477A;
+    font-size: 18px;
+}
+
+#tenaga-pendidik .section-item-caption h6 {
+    font-style: 18px;
+    color: #F2C808;
+}
+
+#tenaga-pendidik .section-body,
+#gallery .section-body {
+    position: relative;
+}
+
+#slider-tools-1 .owl-next,
+#slider-tools-1 .owl-prev,
+#slider-tools-3 .owl-next,
+#slider-tools-3 .owl-prev {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    z-index: 20;
+    background-color: #15477A;
+    border: none;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 20px #ddd;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#slider-tools-1 .owl-prev,
+#slider-tools-3 .owl-prev {
+    left: -60px;
+}
+
+#slider-tools-1 .owl-next:hover,
+#slider-tools-1 .owl-prev:hover,
+#slider-tools-3 .owl-next:hover,
+#slider-tools-3 .owl-prev:hover {
+    cursor: pointer;
+    background-color: #F2C808;
+    color: #000;
+}
+
+/* akhir css tenaga pendidik */
+
+/* prestasi */
+.judul-prestasi {
+    font-size: 17px !important;
+}
+
+/* end prestasi */
+
+/* css alumni */
+#alumni {
+    background-color: #15477A;
+    padding: 80px 0px;
+}
+
+#alumni .section-title h2 {
+    color: #fff;
+}
+
+#alumni .section-item-slider {
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 276px;
+    padding: 20px;
+
+}
+
+#alumni .section-item-content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #F2C808;
+}
+
+#alumni .section-item-content P {
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+}
+
+#alumni .section-item-content .more {
+    color: #F2C808;
+}
+
+#alumni .section-item-content .more i {
+    margin-left: 15px;
+}
+
+.foto-alumni {
+    height: 220px;
+    object-fit: cover;
+}
+
+.section-body {
+    position: relative;
+}
+
+#slider-tools-2 .owl-next,
+#slider-tools-2 .owl-prev {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    z-index: 20;
+    background-color: #fff;
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 5px #ddd;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#slider-tools-2 .owl-prev {
+    left: -60px;
+
+}
+
+#slider-tools-2 .owl-next:hover,
+#slider-tools-2 .owl-prev:hover {
+    cursor: pointer;
+    background-color: #F2C808;
+}
+
+section {
+    margin: 80px 0;
+}
+
+section:first-of-type,
+section:nth-of-type(2n) {
+    margin: 0;
+}
+
+/* akhir css alumni */
+
+/* css ekstrakurikuler */
+
+#ekstrakulikuler {
+    background-color: #ddd;
+    padding: 80px 0;
+}
+
+#ekstrakulikuler .section-body-item {
+    background-color: #15477A;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    height: 180px;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+#ekstrakulikuler .section-body-item h5 {
+    color: #Ffff;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120px;
+}
+
+/* akhir css ekstrakurikuler */
+
+/* footer */
+footer {
+    color: #000;
+    background-color: #ddd;
+    padding: 80px 0;
+}
+
+footer .footer-col:first-of-type {
+    padding-right: 30px;
+
+}
+
+footer .brand {
+    display: flex;
+}
+
+footer .brand img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer .brand h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+footer .tentang {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+    text-align: justify;
+
+}
+
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .sosmed li a {
+    color: #000;
+    border: 1px solid rgba(21, 71, 122);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+footer .sosmed li a:hover {
+    color: #000;
+}
+
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-col .alamat {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-col .kontak {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-col .kontak i {
+    margin-right: 10px;
+}
+
+.footer-col .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a {
+    color: #000;
+    font-size: 15px;
+    font-weight: 24;
+}
+
+.footer-col .footer-nav a:hover {
+    border-bottom: 1px dashed #000;
+}
+
+
+
+/* end footer */
+
+/* sejarah */
+#sejarah {
+    margin-bottom: 200px;
+}
+
+#sejarah .tentang-sejarah {
+    text-align: justify;
+    line-height: 2;
+}
+
+/* end sejarah */
+#visi-misi {
+    margin-bottom: 200px;
+}
+
+#visi-misi .visi-misi {
+    line-height: 2;
+    text-align: justify;
+}
+
+/* visi dan misi */
+
+
+/* end visi dan misi */
+
+/* end sejarah */
+
+/*section-detail-berita  */
+.detail-berita .section-body .berita-isi {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+/*end section-detail-berita  */
+
+@media (max-width: 575.98px) {
+
+    #alumni .section-item-slider {
+        text-align: center;
+        box-shadow: none;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        min-height: 376px;
+        padding: 20px;
+
+
+    }
+
+
+
+    #alumni .section-item-content h3 {
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #F2C808;
+    }
+
+    #alumni .section-item-content P {
+        font-size: 12px;
+        color: #fff;
+        line-height: 26px;
+    }
+
+    #alumni .section-item-content .more {
+        color: #F2C808;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    /* hero area */
+    #hero-area .slider-item-content h2 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #hero-area .slider-item-content p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    /* hero area */
+
+    .video-wrapper iframe {
+        width: 340px !important;
+    }
+
+
+    /* tenaga pengajar */
+    #slider-tools-1 .owl-next,
+    #slider-tools-1 .owl-prev,
+    #slider-tools-3 .owl-next,
+    #slider-tools-3 .owl-prev {
+
+        right: -10px;
+
+    }
+
+    #slider-tools-1 .owl-prev,
+    #slider-tools-3 .owl-prev {
+        left: -10px;
+    }
+
+    #slider-tools-1 .owl-next:hover,
+    #slider-tools-1 .owl-prev:hover,
+    #slider-tools-3 .owl-next:hover,
+    #slider-tools-3 .owl-prev:hover {
+        cursor: pointer;
+        background-color: #F2C808;
+        color: #000;
+    }
+
+    /* tenaga pengajar */
+
+    /* alumni */
+    #slider-tools-2 .owl-next,
+    #slider-tools-2 .owl-prev {
+
+        right: -10px;
+
+    }
+
+    #slider-tools-2 .owl-prev {
+        left: -10px;
+
+    }
+
+
+    #alumni .section-item-slider {
+        box-shadow: none;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        height: 500px;
+        padding: 20px;
+
+    }
+
+    #alumni .section-item-content h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #F2C808;
+    }
+
+    #alumni .section-item-content p {
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+
+    }
+
+    #alumni .section-item-content .more {
+        color: #F2C808;
+    }
+
+    #alumni .section-item-content .more i {
+        margin-left: 15px;
+    }
+
+    .foto-alumni {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .section-body {
+        position: relative;
+    }
+
+    /* alumni */
+
+    /* berita */
+    .section-item-thumbnail-berita {
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+    }
+
+    /* berita */
+
+    /* footer */
+    footer .brand h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 45px;
+        text-transform: uppercase;
+    }
+
+    /* footer */
+}
